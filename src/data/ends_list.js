@@ -1,0 +1,13 @@
+export default {
+    title : 'Liste des Fins',
+    ends : [
+        {id: 1, title: 'Le Roi des Corneilles', content: 'Le palais est mis à sac, votre cour se disperse et il ne vous reste plus que des corbeaux à gouverner.', image: './public/img/ends/end_01.jpg', sound: './public/audio/ends/end_01.wav', condition: [{name: 'people', value: 'min'}]},
+        {id: 2, title: 'La mort paisible', content: 'Votre règne se termine ici mais personne n\'ose s\'en prendre à vous. Vous mourrez bien des années plus tard.', image: './public/img/ends/end_02.jpg', sound: './public/audio/ends/end_02.wav', condition: [{name: 'people', value: 'max'}]},
+        {id: 3, title: 'Envoyé en exil', content: 'La nouvelle oligarchie vous envoie en exil', image: './public/img/ends/end_04.jpg', sound: './public/audio/ends/end_04.wav', condition: [{name: 'economy', value: 'min'}]},
+        {id: 4, title: 'Gloutonnerie', content: 'A force de manger, vous finissez par vous étouffer. Tout le monde est si ivre que votre mort n\'est constatée qu\'au matin suivant.', image: './public/img/ends/end_03.jpg', sound: './public/audio/ends/end_03.ogg', condition: [{name: 'economy', value: 'max'}]},
+        {id: 5, title: 'Brasier ardent', content: 'La papauté envoie ses croisés \"rallumer\" la foi dans le coeur des infidèles. Vous faites pour cela un combustible très efficace...', image: './public/img/ends/end_05.png', sound: './public/audio/ends/end_05.wav', condition: [{name: 'religion', value: 'min'}]},
+        {id: 6, title: 'Guerre Sainte', content: 'Sous la pression de vos sujets vous vous lancez dans une croisade afin d’évangéliser les contrées voisines. Mais en première ligne la foi montre vite ses limites face aux flèches et à l\'acier...', image: './public/img/ends/end_07.jpg', sound: './public/audio/ends/end_07.mp3', condition: [{name: 'religion', value: 'max'}]},
+        {id: 7, title: 'C\'était pas une horloge en fait ?', content: 'Un service de sécurité plus performant aurait peut être relevé le fait qu\'une banquette arrière n\'est pas censée faire tic tac...', image: './public/img/ends/end_08.jpg', sound: './public/audio/ends/end_08.wav', condition: [{name: 'army', value: 'min'}]},
+        {id: 8, title: 'Vous avez dit Putsch ?', content: 'L\'état major libère le royaume de votre tyrannie par une exécution sommaire puis assure généreusement l\'intérim pendant cette \"transition politique\"', image: './public/img/ends/end_06.jpg', sound: './public/audio/ends/end_06.wav', condition: [{name: 'army', value: 'max'}]},
+    ]
+}

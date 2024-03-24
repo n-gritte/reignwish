@@ -1,0 +1,20 @@
+export default {
+    title : 'Liste des Events',
+    events : [
+        {id: 1, content: 'joueur, votre forteresse est trop fragile. Construisons une nouvelle tour.', right: {text: 'oui', modifier: {army: -10, economy: -10}}, left: {text: 'non', modifier: {people: -10, army: -10}}},
+        {id: 2, content: 'Nous avons trouvé de l\'or dans les mines. Devons-nous continuer a creuser plus profondément ?', right: {text: 'oui', modifier: {people: -20, economy: 20}}, left: {text: 'non', modifier: {people: 10, army: -10}}},
+        {id: 3, content: 'Je suis pnj, acceptez ce témoignage de ma gratitude', right: {text: 'oui', modifier: {economy: 10}}, left: {text: 'Pas de pot-de-vin', modifier: {religion: 5, people: 5}}},
+        {id: 4, content: 'Il faut être prêt à tout. Nous devons recruter plus de soldats !', right: {text: 'oui', modifier: {people: -10, army: 20}}, left: {text: 'non', modifier: {army: -20}}},
+        {id: 5, content: 'Les baronnies de l\'Est sont en guerre à nouveau et leurs populations passent la frontière en ce moment même.', right: {text: 'Acceuillez-les', modifier: {religion: 10, people: 10, army: -10, economy: -20}}, left: {text: 'Fermez la frontière!', modifier: {army: 20, economy: -10}}},
+        {id: 6, content: 'Une bande de vos soldats a mis à sac une abbaye. Que justice soit faite !', right: {text: 'oui', modifier: {religion: 10, army: -10}}, left: {text: 'non', modifier: {religion: -20, army: 10}}},
+        {id: 7, content: 'Les habitants d\'un quartier de la capitale sont devenus fous et chassent les sorcières. Devons-nous faire usage de la force?', right: {text: 'oui', modifier: {people: -10, army: 10}}, left: {text: 'non', modifier: {army: -10}}},
+        {id: 8, content: 'Les mineurs refusent de creuser plus profondément. Ils veulent êtres augmentés.', right: {text: 'oui', modifier: {people: 10, economy: -10}}, left: {text: 'non', modifier: {people: -10, economy: 10}}},
+        {id: 9, content: 'Ce gâteau vous donnera un aperçu du paradis joueur.', right: {text: 'oui', modifier: {people: 10}}, left: {text: 'Et des crampes d\'estomac', modifier: {people: -10}}},
+        {id: 10, content: 'Un tremblement de terre a détruit une grande partie de la capitale ! La garde attend vos ordres.', right: {text: 'Sauver les victimes', modifier: {people: 10, economy: -30}}, left: {text: 'Empêcher le pillage', modifier: {people: -30, army: 10, economy: 10}}},
+        {id: 11, content: 'Hum... (chuchotant) Une jeune femme prétend que son fils est votre bâtard. Devons-nous faire disparaître ce problème?', right: {text: 'oui', modifier: {religion: -10, people: -10, army: 10}}, left: {text: 'non', modifier: {people: 10, army: 10}}},
+        {id: 12, content: 'joueur je voudrais organiser une rencontre scientifique avec quelques confrères de l\'Ouest dans votre château.', right: {text: 'oui', modifier: {religion: -10, people: 10, economy: -10}}, left: {text: 'non', modifier: {religion: 30, people: -10}}},
+        {id: 13, content: 'Ce matin, une épidémie de gastro sévit, cela crée une fuite massive des capitaux. Faut il enchaîner les fuyards ? ', right: {text: 'oui', modifier: {people: -10, economy: 10}}, left: {text: 'non', modifier: {people: 10, economy: -10}}},
+        {id: 14, content: 'joueur, une herboriste passe ses dimanche à soigner les habitants des quartiers pauvres et tente même de les éduquer.', right: {text: 'Subventionnez la', modifier: {religion: -10, people: 15, economy: -10}}, left: {text: 'Brûlez cette sorcière !', modifier: {religion: 20, people: -10}}},
+        {id: 15, content: 'Alerte, les barbares traversent actuellement la frontière !', right: {text: 'Protégez le trésor !', modifier: {religion: -10, people: -10, economy: 10}}, left: {text: 'Envoyez l\'armée !', modifier: {religion: 10, people: 10, army: -5}}}
+    ]
+}
